@@ -10,6 +10,22 @@ header.header {
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
+    p{
+    margin: 0;
+    padding-left: 1rem ;
+    
+
+
+    > a{
+      color: var(--shapes);
+      text-decoration: none;
+
+      &:hover{
+        filter: brightness(0.8);
+      }
+      }
+    }
   }
 }
